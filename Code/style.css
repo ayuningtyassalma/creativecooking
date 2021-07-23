@@ -1,0 +1,488 @@
+body {
+    width: auto;
+}
+
+/* navigasi */
+.navbar-expand {
+    color: #FFFFFF;
+}
+
+.navbar-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-right: 10px;
+}
+
+.navbar-brand {
+    font-family: 'Lora', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    color: #707070;
+}
+
+.warna-bg {
+    background-color: #FFFFFF;
+}
+
+
+
+
+/* h1 { 
+    font-family: 'Lora', serif;
+    font-size: 40px;
+    display: inline;
+    color: #707880;
+}
+*/
+
+
+/* tombol */
+.tombol {
+    border-radius: 6px;
+    background-color: #06284B;
+    color: #FFFFFF;
+    width: 169px;
+    height: 35px;
+}
+
+.tombol1 {
+    border-radius: 6px;
+    background-color: #D6AB3B;
+    color: #FFFFFF;
+    width: 200px;
+    height: 35px;
+    transform: translate(0px, );
+}
+
+.tombol2 {
+    border-radius: 6px;
+    background-color: #D6AB3B;
+    color: #FFFFFF;
+    width: 200px;
+    height: 35px;
+    margin: auto;
+}
+
+/* jumbotron/banner */
+.jumbotron {
+    height: 500px;
+    overflow: hidden;
+}
+
+
+
+.banner {
+    text-align: center;
+}
+
+.banner img {
+    width: 351px;
+    height: 196px;
+    justify-content: center;
+    text-align: center;
+}
+
+.jumbotron h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    transform: translate(0px, 0px);
+}
+
+.banner1 {
+    text-align: center;
+}
+
+.banner h1 {
+    font-size: 31px;
+}
+
+.banner h1 b {
+    color: #06284B
+}
+
+.banner1 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    margin-top: 40px;
+
+}
+
+
+/* Paralaax effect untuk jumbotron (landing elements)  */
+
+.jumbotron img,
+.jumbotron h1,
+.jumbotron p,
+.jumbotron .tombol1 {
+    opacity: 0;
+    transition: 2s;
+}
+
+/*  progam kelas */
+
+.warna-bg1 {
+    background-color: #06284B;
+}
+
+section .container {
+    height: 1000px;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+}
+
+section .container h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    padding: 70px;
+}
+
+.kartu1 {
+    width: 260px;
+    height: 345px;
+    text-align: center;
+    margin-left: 65px;
+    margin-bottom: 30px;
+    transform: translate(0px, -95px);
+    opacity: 0;
+    transition: 2s;
+}
+
+
+
+
+
+.card h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+.card p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+}
+
+.tombol2 {
+    width: 150px;
+    height: 36px;
+    border-radius: 6px;
+    background-color: #D6AB3B;
+    margin-top: -15px;
+}
+
+
+
+
+h2::after {
+    content: '';
+    display: block;
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+    border-bottom: 3px solid #D6AB3B;
+    margin: 5px auto;
+}
+
+
+/* Benefits */
+.benefits .container {
+    height: 1300px;
+}
+
+.warna-bg2 {
+    background-color: #EAE9E6;
+}
+
+.kartu2 {
+    width: 225px;
+    height: 260px;
+    border-radius: 40px;
+    margin: 5px auto !important;
+    box-shadow: 0px 10px 20px #707880;
+    opacity: 0;
+    transform: translate(0px, 90px);
+    transition: 2s;
+}
+
+.kartu2 img {
+    width: 125px;
+    height: 95px;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-top: 20px;
+    margin-left: 50px;
+}
+
+
+.kartu2 h5 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    text-align: center;
+}
+
+.kartu2 p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 7px;
+    text-align: center;
+    margin-bottom: -200px;
+}
+
+
+
+/* about us */
+.about .container {
+    height: 650px;
+}
+
+.penjelasan {
+    margin: auto !important;
+    text-align: center;
+    justify-content: center !important;
+}
+
+.kotak {
+    height: 140px;
+    width: 179px;
+    background-color: #06284B;
+    margin-top: 139px;
+    margin-left: 80px;
+
+}
+
+
+
+.penjelasan p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    margin-top: -1px;
+    opacity: 0;
+    transform: translate(0px, 70px);
+    transition: 2s;
+
+}
+
+.about img {
+    position: absolute;
+    bottom: -27px;
+    left: 115px;
+    width: 205px;
+    height: 140px;
+    justify-content: center !important;
+    opacity: 0;
+    transition: 1s;
+}
+
+.about h2 {
+    opacity: 0;
+    transition: 2s;
+    transform: translate(0px, 70px);
+}
+
+/* Testimoni */
+.testimoni .container {
+    height: 385px;
+}
+
+.testimoni p {
+    font-style: italic;
+    font-size: 10px;
+    color: #707880;
+}
+
+.figure {
+    opacity: 0;
+    transition: 2s;
+    transform: translate(0px, 20px);
+}
+
+.testi .testi2,
+.testi .testi3 {
+    margin-top: -100px;
+    opacity: .5;
+}
+
+/* Footer */
+.footer {
+    background-color: #06284B;
+    width: 100%;
+}
+
+.footer small {
+    font-size: 8px;
+}
+
+.footer p {
+    color: #EAE9E6;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 35px;
+    margin-left: 36px;
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* dekstop version */
+@media (min-width: 992px) {
+
+
+    /* Jumbotron/banner */
+
+    .banner img {
+        width: 535px;
+        height: 320px;
+        margin-left: 140px;
+
+    }
+
+    .banner h1 {
+        margin-top: 112px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .banner1 {
+        text-align: left;
+        margin-top: -136px;
+    }
+
+    /* navbar */
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        width: 40px;
+        height: 4px;
+        border-bottom: 3px solid #D6AB3B;
+        border-radius: 2px;
+        margin: auto;
+        padding-bottom: 2px;
+        margin-bottom: -5px;
+    }
+
+    /* Progam kelas */
+
+    section .container {
+        height: 600px;
+    }
+
+    .card {
+        margin-left: 197px;
+        margin-top: -35px;
+    }
+
+    /* Benefits  */
+    .benefits .container {
+        height: 600px;
+    }
+
+    /* about */
+    .about .container {
+        height: 550px;
+    }
+
+    .about h2 {
+        margin-right: -240px;
+        margin-bottom: -21px;
+    }
+
+    .about img {
+        width: 397px;
+        height: 270px;
+        position: absolute;
+        top: 192px;
+        left: 64px;
+    }
+
+    .kotak {
+        height: 270px;
+        width: 345px;
+        background-color: #06284B;
+        margin-top: 139px;
+        margin-left: 30px;
+    }
+
+    .about .container .penjelasan {
+        text-align: center;
+        margin: 120px auto !important;
+        float: right !important;
+
+    }
+
+
+
+    .penjelasan h2 {
+        margin-left: -212px;
+    }
+
+
+    .penjelasan p {
+        font-size: 12px;
+        margin-top: -50px;
+    }
+
+    /* Testimoni */
+    .testimoni .container {
+        height: 389px;
+    }
+
+    .testimoni p {
+        font-size: 15px;
+        margin-top: -70px;
+    }
+
+    .testi figure img {
+        margin-top: -15px;
+        width: 70px;
+
+    }
+
+    .testi figcaption {
+        margin-top: 4px;
+        text-align: center;
+    }
+
+    .testi figcaption h6 {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 15px;
+        color: #000000;
+    }
+
+    .testi figure p {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 12px;
+        color: #707880;
+        margin-top: -10px;
+    }
+
+    /* footer */
+    .footer {
+        height: 120px;
+    }
+
+    .footer p {
+        margin-top: 50px;
+        margin-left: 139px;
+        font-size: 18px;
+
+    }
+
+    .footer ul li {
+        display: inline;
+        color: #FFFFFF;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 18px;
+        margin-top: -10px;
+    }
+}
